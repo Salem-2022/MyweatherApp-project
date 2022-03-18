@@ -1,0 +1,81 @@
+body {
+  font-family: "PT Mono", monospace;
+}
+
+form {
+  width: -webkit-fill-available;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+img {
+  border-radius: 4px;
+}
+
+#currentButton {
+  background: #218838;
+  box-shadow: #a8d9b1;
+  padding: 0px auto;
+  color: white;
+}
+.container {
+  width: 50%;
+}
+.card {
+  border-radius: 4px;
+}
+.card-body {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid rgba(133, 132, 132, 0.349);
+  border-radius: 4px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: content-box;
+}
+
+.currentWeather {
+  text-align: center;
+  margin-top: 40px;
+}
+.currentCity {
+  font-size: 25px;
+}
+.currentDay {
+  font-size: 20px;
+}
+.currentWeatherEmoji {
+  font-size: 40px;
+}
+.currentTemperature {
+  font-size: 40px;
+  font-weight: 900px;
+}
+
+.forcast {
+  padding-top: 60px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.satEmoji {
+  font-size: 30px;
+}
+.sunEmoji {
+  font-size: 30px;
+}
+.monEmoji {
+  font-size: 30px;
+}
+.tueEmoji {
+  font-size: 30px;
+}
+.wedEmoji {
+  font-size: 30px;
+}
