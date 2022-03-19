@@ -1,13 +1,13 @@
 let now = new Date();
 let currentTime = document.querySelector("li.currentDay");
 let days = [
+  "Sunday",
   "Monday",
   "Tuesday",
   "Wedensday",
   "Thursday",
   "Friday",
   "Saturday",
-  "Sunday",
 ];
 let day = days[now.getDay()];
 let hours = now.getHours();
